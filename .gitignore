@@ -1,0 +1,67 @@
+# === Godot ===
+.godot/
+.import/
+*.import
+
+# Presets/exports (opção conservadora: ignore; se quiser versionar, remova estas linhas)
+export.cfg
+export_presets.cfg
+
+# Pastas comuns de builds/exports
+bin/
+obj/
+build/
+Build/
+export/
+exports/
+release/
+releases/
+dist_export/
+*.exe
+*.apk
+*.aab
+*.ipa
+*.x86_64
+*.zip
+*.pck
+
+# === Node / Vite ===
+node_modules/
+dist/
+.vite/
+.cache/
+coverage/
+
+# Env files (nunca commitar segredos)
+.env
+.env.*.local
+*.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === SO / IDE ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.temp
+
+.vscode/
+.idea/
+*.iml
+
+# === Ferramentas diversas ===
+# ngrok (se existir config local)
+.ngrok2/
+
+# Editor/arte temporários (ajuste conforme suas ferramentas)
+*.psd
+*.tmp.*
+._*
