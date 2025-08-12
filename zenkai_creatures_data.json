@@ -1,0 +1,423 @@
+{
+  "zenkai_creatures_system": {
+    "version": "1.0",
+    "total_creatures": 189,
+    "description": "Sistema de criaturas do Zenkai Adventure baseado no ZenkaiDex",
+    "evolution_chains": [
+      {
+        "chain_id": 1,
+        "family_name": "Oranboo",
+        "stages": ["Oranboo", "Simiboo", "Goriboo"],
+        "inferred_type": ["Normal", "Fighting"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 2,
+        "family_name": "Burrny",
+        "stages": ["Burrny", "Burrnoar", "Burrnout"],
+        "inferred_type": ["Fire"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 3,
+        "family_name": "Allipop",
+        "stages": ["Allipop", "Alliptile", "Allijaws"],
+        "inferred_type": ["Water"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 4,
+        "family_name": "Pigroot",
+        "stages": ["Pigroot", "Poinroot", "Porkroot"],
+        "inferred_type": ["Ground", "Normal"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 5,
+        "family_name": "Rabblaze",
+        "stages": ["Rabblaze", "Rabblast", "Rabbomber"],
+        "inferred_type": ["Fire", "Fighting"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 6,
+        "family_name": "Coldeep",
+        "stages": ["Coldeep", "Goadeep", "Thordeep"],
+        "inferred_type": ["Ice", "Water"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 7,
+        "family_name": "Robbyn",
+        "stages": ["Robbyn", "Hawkyn", "Garuffyn"],
+        "inferred_type": ["Flying", "Normal"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 8,
+        "family_name": "Howlee",
+        "stages": ["Howlee", "Howluna"],
+        "inferred_type": ["Dark", "Normal"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 9,
+        "family_name": "Farfly",
+        "stages": ["Farfly", "Farfurian", "Farfurious"],
+        "inferred_type": ["Flying", "Dragon"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 10,
+        "family_name": "Workuna",
+        "stages": ["Workuna", "Worclaw"],
+        "inferred_type": ["Steel", "Fighting"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 11,
+        "family_name": "Silkling",
+        "stages": ["Silkling", "Silkloon", "Silkeefly"],
+        "inferred_type": ["Bug", "Flying"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 12,
+        "family_name": "Hotbone",
+        "stages": ["Hotbone", "Hotwoolf", "Hotskull"],
+        "inferred_type": ["Fire", "Ghost"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 13,
+        "family_name": "Dogoat",
+        "stages": ["Dogoat", "Bearth", "Incibear", "Ursineroar"],
+        "inferred_type": ["Normal", "Ground", "Fire"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 14,
+        "family_name": "Deerbolt",
+        "stages": ["Deerbolt", "Kambolt"],
+        "inferred_type": ["Electric", "Normal"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 15,
+        "family_name": "Beetick",
+        "stages": ["Beetick", "Beethorn"],
+        "inferred_type": ["Bug"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 16,
+        "family_name": "Blawny",
+        "stages": ["Blawny", "Blazor", "Blazoth"],
+        "inferred_type": ["Fire", "Steel"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 17,
+        "family_name": "Nimbat",
+        "stages": ["Nimbat", "Arctobat"],
+        "inferred_type": ["Ice", "Flying"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 18,
+        "family_name": "Stordillo",
+        "stages": ["Stordillo", "Quardillo", "Bunkdillo"],
+        "inferred_type": ["Steel", "Ground"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 19,
+        "family_name": "Snabul",
+        "stages": ["Snabul", "Weresnow"],
+        "inferred_type": ["Ice", "Dark"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 20,
+        "family_name": "Samonji",
+        "stages": ["Samonji", "Samonkai"],
+        "inferred_type": ["Fighting", "Steel"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 21,
+        "family_name": "Sharpee",
+        "stages": ["Sharpee", "Carpedum", "Carpeduster"],
+        "inferred_type": ["Water", "Ground"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 22,
+        "family_name": "Hexfish",
+        "stages": ["Hexfish", "Hexnado"],
+        "inferred_type": ["Water", "Dark"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 23,
+        "family_name": "Axseal",
+        "stages": ["Axseal", "Axsailor"],
+        "inferred_type": ["Water", "Steel"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 24,
+        "family_name": "Frobble",
+        "stages": ["Frobble", "Toaddle", "Poseiddle"],
+        "inferred_type": ["Water"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 25,
+        "family_name": "Orduck",
+        "stages": ["Orduck", "Orquash", "Thorquash"],
+        "inferred_type": ["Water"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 26,
+        "family_name": "Drillur",
+        "stages": ["Drillur", "Drillodon"],
+        "inferred_type": ["Ground", "Steel"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 27,
+        "family_name": "Squirky",
+        "stages": ["Squirky", "Squarkle"],
+        "inferred_type": ["Electric"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 28,
+        "family_name": "Troppluf",
+        "stages": ["Troppluf", "Tropicorn"],
+        "inferred_type": ["Grass", "Normal"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 29,
+        "family_name": "Pingull",
+        "stages": ["Pingull", "Pingoboat"],
+        "inferred_type": ["Water", "Ice"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 30,
+        "family_name": "Dinodon",
+        "stages": ["Dinodon", "Tyranodon"],
+        "inferred_type": ["Dragon", "Ground"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 31,
+        "family_name": "Dinagam",
+        "stages": ["Dinagam", "Raptagam"],
+        "inferred_type": ["Dragon", "Fighting"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 32,
+        "family_name": "Roclamp",
+        "stages": ["Roclamp", "Clamperial"],
+        "inferred_type": ["Rock", "Steel"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 33,
+        "family_name": "Tortiga",
+        "stages": ["Tortiga", "Torterror", "Tortenebrous"],
+        "inferred_type": ["Water", "Dark"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 34,
+        "family_name": "Hidragon",
+        "stages": ["Hidragon", "Raidragon", "Imperagon"],
+        "inferred_type": ["Water", "Dragon"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 35,
+        "family_name": "Tentopod",
+        "stages": ["Tentopod", "Tentorior"],
+        "inferred_type": ["Water", "Poison"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 36,
+        "family_name": "Quakfuu",
+        "stages": ["Quakfuu", "Pelifuu"],
+        "inferred_type": ["Fighting", "Flying"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 37,
+        "family_name": "Sunnince",
+        "stages": ["Sunnince", "Sunking"],
+        "inferred_type": ["Fire", "Psychic"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 38,
+        "family_name": "Giritox",
+        "stages": ["Giritox", "Toximander", "Toxizard"],
+        "inferred_type": ["Poison", "Fire"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 39,
+        "family_name": "Bufant",
+        "stages": ["Bufant", "Bufantom"],
+        "inferred_type": ["Ghost", "Normal"],
+        "evolution_method": "Level"
+      },
+      {
+        "chain_id": 40,
+        "family_name": "Slowpotas",
+        "stages": ["Slowpotas", "Killopotas"],
+        "inferred_type": ["Water", "Psychic"],
+        "evolution_method": "Level"
+      }
+    ],
+    "single_stage_creatures": [
+      "Hexkimera",
+      "Bleowzard",
+      "Hatiskull",
+      "Filossíntese",
+      "Apolloo",
+      "Fuujinx",
+      "Raijinx",
+      "Orlunyx",
+      "Kalalua",
+      "Pitichomp",
+      "Lunaura",
+      "Marteleon",
+      "Listarum",
+      "Paçokout",
+      "Gaialfy",
+      "Nimelycan",
+      "Odindorn",
+      "Hitmilo",
+      "Mieen hau",
+      "Weremor",
+      "Luppitar"
+    ],
+    "type_effectiveness": {
+      "note": "Sistema de tipos inferido - necessita validação",
+      "types": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Grass",
+        "Ice",
+        "Fighting",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Steel"
+      ],
+      "effectiveness_chart": {
+        "description": "Chart needs to be defined based on game balance requirements"
+      }
+    },
+    "rarity_system": {
+      "note": "Sistema de raridade inferido baseado na complexidade dos nomes e evoluções",
+      "tiers": {
+        "common": {
+          "description": "Criaturas de 1-2 estágios de evolução",
+          "examples": ["Oranboo", "Burrny", "Howlee"]
+        },
+        "uncommon": {
+          "description": "Criaturas de 3 estágios de evolução",
+          "examples": ["Burrnout", "Farfurious", "Blazoth"]
+        },
+        "rare": {
+          "description": "Criaturas com 4+ estágios ou nomes únicos complexos",
+          "examples": ["Ursineroar", "Imperagon", "Tortenebrous"]
+        },
+        "legendary": {
+          "description": "Criaturas de estágio único com nomes especiais",
+          "examples": ["Hexkimera", "Filossíntese", "Orlunyx"]
+        }
+      }
+    },
+    "battle_mechanics": {
+      "note": "Mecânicas de batalha sugeridas baseadas em padrões de nomes",
+      "suggested_stats": [
+        "HP (Health Points)",
+        "Attack",
+        "Defense", 
+        "Special Attack",
+        "Special Defense",
+        "Speed"
+      ],
+      "suggested_abilities": {
+        "fire_types": ["Blaze", "Flash Fire", "Flame Body"],
+        "water_types": ["Torrent", "Water Absorb", "Swift Swim"],
+        "electric_types": ["Static", "Volt Absorb", "Motor Drive"],
+        "grass_types": ["Overgrow", "Chlorophyll", "Leaf Guard"],
+        "ice_types": ["Snow Cloak", "Ice Body", "Slush Rush"],
+        "fighting_types": ["Guts", "No Guard", "Steadfast"],
+        "poison_types": ["Poison Point", "Poison Touch", "Corrosion"],
+        "ground_types": ["Sand Veil", "Sand Rush", "Sand Force"],
+        "flying_types": ["Keen Eye", "Big Pecks", "Gale Wings"],
+        "psychic_types": ["Synchronize", "Inner Focus", "Magic Guard"],
+        "bug_types": ["Swarm", "Compound Eyes", "Tinted Lens"],
+        "rock_types": ["Sturdy", "Rock Head", "Solid Rock"],
+        "ghost_types": ["Levitate", "Cursed Body", "Infiltrator"],
+        "dragon_types": ["Intimidate", "Shed Skin", "Multiscale"],
+        "dark_types": ["Intimidate", "Moxie", "Dark Aura"],
+        "steel_types": ["Sturdy", "Heavy Metal", "Filter"]
+      }
+    },
+    "evolution_methods": {
+      "level": {
+        "description": "Evolução por level",
+        "suggested_levels": {
+          "stage_1_to_2": 16,
+          "stage_2_to_3": 32,
+          "stage_3_to_4": 48
+        }
+      },
+      "stone": {
+        "description": "Evolução por pedra elemental",
+        "stones": ["Fire Stone", "Water Stone", "Thunder Stone", "Leaf Stone", "Ice Stone", "Moon Stone", "Sun Stone", "Dawn Stone", "Dusk Stone", "Shiny Stone"]
+      },
+      "trade": {
+        "description": "Evolução por troca",
+        "variants": ["Simple Trade", "Trade with Item", "Trade with Specific Creature"]
+      },
+      "friendship": {
+        "description": "Evolução por amizade",
+        "variants": ["High Friendship", "High Friendship + Day", "High Friendship + Night"]
+      },
+      "special": {
+        "description": "Métodos especiais de evolução",
+        "variants": ["Location-based", "Time-based", "Stats-based", "Move-based"]
+      }
+    },
+    "recommended_features": {
+      "breeding_system": "Sistema de reprodução para obter criaturas com stats melhores",
+      "shiny_variants": "Versões alternativas raras das criaturas com cores diferentes",
+      "mega_evolution": "Evoluções temporárias durante batalhas para criaturas finais",
+      "regional_variants": "Variantes das criaturas baseadas em diferentes regiões do jogo",
+      "abilities": "Habilidades passivas que afetam batalhas e exploração",
+      "held_items": "Itens que criaturas podem segurar para buffs",
+      "type_chart": "Sistema completo de vantagens/desvantagens entre tipos",
+      "status_effects": "Condições como paralisia, queimadura, envenenamento, etc."
+    }
+  }
+}
